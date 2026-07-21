@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: dad-joker-2000
-          image: teamdevextesting.azurecr.io/octopusdeploytesting/dad-joker-2000:#{Octopus.Action.Package[ephemeral-environments-demo].PackageVersion}
+          image: nginxdemos/hello:plain-text
           ports:
             - containerPort: 3000
           resources:
