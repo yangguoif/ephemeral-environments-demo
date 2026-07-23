@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: dad-joker-2000
-          image: nginxdemos/hello:plain-text
+          image: yeasy/simple-web
           ports:
             - containerPort: 3000
           resources:
